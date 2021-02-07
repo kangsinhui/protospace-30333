@@ -22,7 +22,7 @@
 | user       | references  |          |
 
 - has_many:comments
-- belongs_to:users
+- belongs_to:user
 
 ## commentsテーブル
 | Column    | Type       | Options  |
@@ -31,5 +31,5 @@
 | user      | references |          |
 | prototype | references |          |
 
-- belongs_to:users
-- belongs_to:prototypes
+- belongs_to:user
+- belongs_to:prototype
